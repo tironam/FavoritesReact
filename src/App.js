@@ -3,10 +3,17 @@ import Navbar from './components/Navbar'
 import Jumbotron from './components/Jumbotron'
 import Form from './components/Form'
 import List from './components/List'
+import Button from './components/Button'
 
 const App = () => {
   return (
     <>
+      <Button text="My button" />
+      <Button 
+        text="New Button"
+        one="Something"
+        two="Also something"
+      />
       <Navbar />
       <div className="container">
         <div className="row">
